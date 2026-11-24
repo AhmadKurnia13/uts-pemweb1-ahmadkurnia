@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT NusaCyber Tech Indonesia — Enterprise IT & Cybersecurity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="mesh-glow mesh-blue"></div>
+  <div class="mesh-glow mesh-violet"></div>
+
+  <!-- 1. Sticky Glass Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-glass sticky-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <span class="brand-mark"><i class="bi bi-shield-lock-fill text-white"></i></span>
+        <span>NusaCyber <span class="text-slate fw-medium">Tech</span></span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan Utama</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#informasi">Informasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#standar">Keamanan & Standar</a></li>
+        </ul>
+        <div class="d-flex flex-wrap gap-2 mt-3 mt-lg-0">
+          <a href="login.html" class="btn btn-exec-glass btn-sm rounded-pill px-3">Login</a>
+          <a href="register.html" class="btn btn-exec-glass btn-sm rounded-pill px-3">Registrasi</a>
+          <button class="btn btn-exec-primary btn-sm rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#modalKonsultasi">
+            Konsultasi Infrastruktur
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- 2. Hero Section -->
+    <section class="hero-wrapper">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="pill-badge mb-4">
+              <span class="status-dot"></span>
+              Enterprise IT & Cybersecurity Partner • Bandung, Indonesia
+            </span>
+            <h1 class="display-5 fw-extrabold mb-4 lh-sm">
+              Membangun Infrastruktur Digital yang <span class="gradient-text">Aman & Tangguh</span>
+            </h1>
+            <p class="text-slate fs-6 lh-lg mb-4">
+              Mitra strategis pengembangan sistem web enterprise, keamanan jaringan siber, dan pengelolaan pusat data modern bagi instansi pemerintah dan korporasi di seluruh Indonesia.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <button class="btn btn-exec-primary btn-lg rounded-pill px-4 fs-6" data-bs-toggle="modal" data-bs-target="#modalKonsultasi">
+                <i class="bi bi-calendar-check me-2"></i>Jadwalkan Konsultasi
+              </button>
+              <a href="#informasi" class="btn btn-exec-glass btn-lg rounded-pill px-4 fs-6">
+                Eksplorasi Informasi <i class="bi bi-arrow-down-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3D Isometric Abstract Architecture Visualization -->
+          <div class="col-lg-6">
+            <div class="infra-visual">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-slate fw-semibold"><i class="bi bi-cpu text-info me-2"></i>NUSASHIELD CORE TOPOLOGY</small>
+                <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 rounded-pill px-3 py-1">
+                  <span class="status-dot d-inline-block me-1"></span> Zero-Trust Active
+                </span>
+              </div>
+              <svg viewBox="0 0 520 320" class="w-100 svg-float" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#2563EB" />
+                    <stop offset="100%" stop-color="#7C3AED" />
+                  </linearGradient>
+                  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#1E293B" stop-opacity="0.95" />
+                    <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
+                  </linearGradient>
+                </defs>
+                <!-- Glowing Base Platform -->
+                <polygon points="260,295 470,195 260,105 50,195" fill="url(#gPanel)" stroke="rgba(96,165,250,0.35)" stroke-width="1.2"/>
+                <polygon points="260,275 430,195 260,122 90,195" fill="rgba(37,99,235,0.08)" stroke="rgba(124,58,237,0.35)" stroke-width="1"/>
+                <!-- Fiber-Optic Network Waves -->
+                <path d="M100 195 Q180 120 260 155 T420 195" stroke="url(#gBlue)" stroke-width="2.5" class="pulse-line"/>
+                <path d="M135 215 Q260 250 385 215" stroke="#38BDF8" stroke-width="1.6" stroke-opacity="0.7" class="pulse-line"/>
+                <!-- Center Server Tower (Isometric 3D) -->
+                <polygon points="260,42 330,76 260,110 190,76" fill="url(#gBlue)" fill-opacity="0.85" stroke="#93C5FD"/>
+                <polygon points="190,76 260,110 260,210 190,176" fill="#0F172A" stroke="rgba(255,255,255,0.2)"/>
+                <polygon points="330,76 260,110 260,210 330,176" fill="#1E293B" stroke="rgba(255,255,255,0.2)"/>
+                <!-- Server Rack LED Bars -->
+                <line x1="204" y1="104" x2="246" y2="124" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+                <line x1="204" y1="126" x2="246" y2="146" stroke="#60A5FA" stroke-width="3" stroke-linecap="round"/>
+                <line x1="204" y1="148" x2="246" y2="168" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"/>
+                <line x1="274" y1="124" x2="316" y2="104" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+                <line x1="274" y1="146" x2="316" y2="126" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+                <!-- Floating Encrypted Nodes -->
+                <circle cx="115" cy="145" r="14" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+                <circle cx="115" cy="145" r="5" fill="#38BDF8"/>
+                <circle cx="405" cy="135" r="14" fill="#0F172A" stroke="#A78BFA" stroke-width="2"/>
+                <circle cx="405" cy="135" r="5" fill="#A78BFA"/>
+                <circle cx="260" cy="248" r="12" fill="#0F172A" stroke="#10B981" stroke-width="2"/>
+                <circle cx="260" cy="248" r="4.5" fill="#10B981"/>
+              </svg>
+              <div class="row g-2 mt-2 text-center">
+                <div class="col-4">
+                  <div class="p-2 rounded-3 bg-white bg-opacity-5 border border-white border-opacity-10">
+                    <small class="text-slate d-block" style="font-size:0.7rem;">LATENCY</small>
+                    <span class="fw-bold text-info small">1.4 ms</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="p-2 rounded-3 bg-white bg-opacity-5 border border-white border-opacity-10">
+                    <small class="text-slate d-block" style="font-size:0.7rem;">ENCRYPTION</small>
+                    <span class="fw-bold text-white small">AES-256</span>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="p-2 rounded-3 bg-white bg-opacity-5 border border-white border-opacity-10">
+                    <small class="text-slate d-block" style="font-size:0.7rem;">UPTIME SLA</small>
+                    <span class="fw-bold text-success small">99.99%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Tentang Perusahaan (Split Layout + 2x2 Glass Metric Grid) -->
+    <section id="tentang" class="py-5 reveal">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="text-info fw-bold text-uppercase small">Tentang Perusahaan</span>
+            <h2 class="fw-bold mt-2 mb-3">Arsitektur Teknologi Skala Nasional dari Kota Bandung</h2>
+            <p class="text-slate lh-lg mb-3">
+              Berbasis di Kota Bandung, <strong>PT NusaCyber Tech Indonesia</strong> berfokus pada pengembangan sistem web enterprise, keamanan jaringan komputer, serta pengelolaan pusat data modern bagi instansi pemerintah, BUMN, dan korporasi swasta di seluruh Indonesia.
+            </p>
+            <p class="text-slate lh-lg mb-0">
+              Dengan pendekatan rekayasa presisi dan kepatuhan standar internasional, kami memastikan setiap aset digital klien beroperasi tanpa hambatan dengan perlindungan siber berlapis.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="glass-card p-4 h-100">
+                  <i class="bi bi-activity text-info fs-3 mb-2 d-block"></i>
+                  <h3 class="fw-bold mb-1">99.99%</h3>
+                  <p class="text-slate small mb-0">SLA Uptime Terjamin dengan Redundansi Tier-III</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="glass-card p-4 h-100">
+                  <i class="bi bi-patch-check text-primary fs-3 mb-2 d-block"></i>
+                  <h3 class="fw-bold mb-1">ISO/IEC 27001</h3>
+                  <p class="text-slate small mb-0">Standar Manajemen Keamanan Informasi Internasional</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="glass-card p-4 h-100">
+                  <i class="bi bi-radar text-success fs-3 mb-2 d-block"></i>
+                  <h3 class="fw-bold mb-1">24/7 SOC</h3>
+                  <p class="text-slate small mb-0">Pemantauan & Mitigasi Ancaman Real-Time Nonstop</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="glass-card p-4 h-100">
+                  <i class="bi bi-globe-asia-australia text-info fs-3 mb-2 d-block"></i>
+                  <h3 class="fw-bold mb-1">Nasional</h3>
+                  <p class="text-slate small mb-0">Dukungan Implementasi & Tim Teknis di Seluruh Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Layanan Utama (3-Column Bento Grid) -->
+    <section id="layanan" class="py-5 reveal">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="text-info fw-bold text-uppercase small">Kapabilitas Inti</span>
+          <h2 class="fw-bold mt-2">Layanan Utama NusaCyber</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="glass-card p-4 h-100 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="icon-box"><i class="bi bi-layers-half"></i></div>
+                <span class="small text-success fw-semibold"><span class="status-dot d-inline-block me-1"></span>High Availability</span>
+              </div>
+              <h5 class="fw-bold mb-2">Pengembangan Sistem Web Enterprise</h5>
+              <p class="text-slate small lh-lg mb-0">
+                Perancangan arsitektur aplikasi web skala besar, integrasi REST API microservices, autentikasi terpadu, dan performa transaksi tinggi.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="glass-card p-4 h-100 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="icon-box"><i class="bi bi-shield-shaded"></i></div>
+                <span class="small text-info fw-semibold"><span class="status-dot d-inline-block me-1"></span>Zero-Trust Shield</span>
+              </div>
+              <h5 class="fw-bold mb-2">Keamanan Jaringan Komputer</h5>
+              <p class="text-slate small lh-lg mb-0">
+                Proteksi siber berlapis, penetration testing berkala, Next-Gen Firewall, deteksi intrusi berbasis AI, dan respons insiden cepat.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="glass-card p-4 h-100 d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="icon-box"><i class="bi bi-hdd-rack"></i></div>
+                <span class="small text-warning fw-semibold"><span class="status-dot d-inline-block me-1"></span>Tier-III Live</span>
+              </div>
+              <h5 class="fw-bold mb-2">Pengelolaan Pusat Data Modern</h5>
+              <p class="text-slate small lh-lg mb-0">
+                Manajemen server on-premise & hybrid cloud, otomasi Disaster Recovery Plan (DRP), serta efisiensi energi hijau berkelanjutan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Kumpulan Informasi Perusahaan (Wajib UTS — Klik menuju detail.html) -->
+    <section id="informasi" class="py-5 reveal">
+      <div class="container">
+        <div class="row align-items-end justify-content-between g-3 mb-4">
+          <div class="col-lg-6">
+            <span class="text-info fw-bold text-uppercase small">Rilis & Publikasi</span>
+            <h2 class="fw-bold mt-1 mb-0">Kumpulan Informasi Perusahaan</h2>
+          </div>
+          <div class="col-lg-5">
+            <div class="input-group">
+              <span class="input-group-text bg-transparent border-secondary border-opacity-25 text-slate">
+                <i class="bi bi-search"></i>
+              </span>
+              <input type="text" id="search-info" class="form-control form-control-dark" placeholder="Cari berita, inovasi, atau kategori..." oninput="renderDaftarInformasi()" />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          <button class="filter-pill active" onclick="filterKategori('Semua', this)">Semua</button>
+          <button class="filter-pill" onclick="filterKategori('Keamanan Siber', this)">Keamanan Siber</button>
+          <button class="filter-pill" onclick="filterKategori('Infrastruktur', this)">Infrastruktur</button>
+          <button class="filter-pill" onclick="filterKategori('Korporasi', this)">Korporasi</button>
+          <button class="filter-pill" onclick="filterKategori('CSR & Edukasi', this)">CSR & Edukasi</button>
+        </div>
+
+        <!-- Diisi otomatis dari js/data.js -->
+        <div class="row g-4" id="daftar-informasi"></div>
+      </div>
+    </section>
+
+    <!-- 6. Sektor Klien & Standar Kepercayaan -->
+    <section id="standar" class="py-5 reveal">
+      <div class="container">
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <div class="glass-card p-4 h-100">
+              <span class="pill-badge mb-3"><i class="bi bi-bank2"></i> Sektor Publik</span>
+              <h4 class="fw-bold mb-2">Instansi Pemerintah & BUMN</h4>
+              <p class="text-slate small lh-lg mb-0">
+                Mendukung transformasi SPBE, kedaulatan data nasional, serta pengamanan infrastruktur vital kementerian, pemda, dan perusahaan milik negara.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="glass-card p-4 h-100">
+              <span class="pill-badge mb-3"><i class="bi bi-buildings"></i> Sektor Komersial</span>
+              <h4 class="fw-bold mb-2">Perusahaan Swasta & Korporasi</h4>
+              <p class="text-slate small lh-lg mb-0">
+                Dipercaya industri perbankan, fintech, manufaktur, dan logistik dalam memodernisasi sistem inti dengan skalabilitas tinggi tanpa downtime.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-3 text-center">
+          <div class="col-6 col-md-3"><div class="trust-chip"><i class="bi bi-shield-check text-info me-2"></i>ISO/IEC 27001</div></div>
+          <div class="col-6 col-md-3"><div class="trust-chip"><i class="bi bi-lock-fill text-info me-2"></i>Zero-Trust Ready</div></div>
+          <div class="col-6 col-md-3"><div class="trust-chip"><i class="bi bi-hdd-network text-info me-2"></i>Tier-III Data Center</div></div>
+          <div class="col-6 col-md-3"><div class="trust-chip"><i class="bi bi-award text-info me-2"></i>BSSN & SPBE Aligned</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CTA Banner -->
+    <section class="py-5 reveal">
+      <div class="container">
+        <div class="cta-banner p-4 p-md-5 text-center">
+          <h2 class="fw-bold mb-3">Siap Mengamankan Infrastruktur Digital Perusahaan Anda?</h2>
+          <p class="text-slate mx-auto mb-4" style="max-width: 620px;">
+            Diskusikan kebutuhan arsitektur web enterprise, audit keamanan jaringan, atau migrasi data center bersama konsultan ahli kami di Bandung.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <button class="btn btn-exec-primary btn-lg rounded-pill px-4 fs-6" data-bs-toggle="modal" data-bs-target="#modalKonsultasi">
+              Hubungi Tim Engineering
+            </button>
+            <a href="login.html" class="btn btn-exec-glass btn-lg rounded-pill px-4 fs-6">
+              Masuk ke Menu Utama
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Konsultasi Interaktif -->
+  <div class="modal fade" id="modalKonsultasi" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content glass-card border-secondary border-opacity-25 text-white p-2">
+        <div class="modal-header border-bottom border-secondary border-opacity-25">
+          <h5 class="modal-title fw-bold"><i class="bi bi-headset text-info me-2"></i>Jadwalkan Konsultasi Infrastruktur</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <form onsubmit="kirimKonsultasi(event)">
+          <div class="modal-body">
+            <div id="pesan-konsultasi"></div>
+            <div class="mb-3">
+              <label class="form-label small text-slate">Nama / Instansi</label>
+              <input type="text" class="form-control form-control-dark" required placeholder="Contoh: PT Maju Bersama" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label small text-slate">Email Korporasi</label>
+              <input type="email" class="form-control form-control-dark" required placeholder="nama@perusahaan.co.id" />
+            </div>
+            <div class="mb-2">
+              <label class="form-label small text-slate">Kebutuhan Layanan</label>
+              <select class="form-select form-control-dark">
+                <option>Pengembangan Sistem Web Enterprise</option>
+                <option>Keamanan Jaringan & Penetration Testing</option>
+                <option>Pengelolaan Pusat Data Modern</option>
+              </select>
+            </div>
+          </div>
+          <div class="modal-footer border-top border-secondary border-opacity-25">
+            <button type="button" class="btn btn-exec-glass btn-sm rounded-pill px-3" data-bs-dismiss="modal">Tutup</button>
+            <button type="submit" class="btn btn-exec-primary btn-sm rounded-pill px-4">Kirim Permintaan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Multi-Column Footer + Copyright Wajib UTS -->
+  <footer class="footer-glass pt-5 pb-4 mt-auto">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-5">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <span class="brand-mark"><i class="bi bi-shield-lock-fill text-white"></i></span>
+            <span class="fw-bold fs-5 text-white">PT NusaCyber Tech Indonesia</span>
+          </div>
+          <p class="small text-slate mb-2">
+            <i class="bi bi-geo-alt text-info me-2"></i>Jl. Soekarno-Hatta No. 378, Kota Bandung, Jawa Barat 40235
+          </p>
+          <p class="small text-slate mb-0">
+            <i class="bi bi-envelope text-info me-2"></i>enterprise@nusacyber.co.id &nbsp;|&nbsp; <i class="bi bi-telephone text-info me-1"></i>(022) 756-2026
+          </p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h6 class="fw-bold mb-3 small text-uppercase">Navigasi Cepat</h6>
+          <ul class="list-unstyled small d-flex flex-column gap-2">
+            <li><a href="#tentang" class="text-slate text-decoration-none">Tentang Kami</a></li>
+            <li><a href="#layanan" class="text-slate text-decoration-none">Layanan Utama</a></li>
+            <li><a href="#informasi" class="text-slate text-decoration-none">Informasi Perusahaan</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h6 class="fw-bold mb-3 small text-uppercase">Akses Portal</h6>
+          <ul class="list-unstyled small d-flex flex-column gap-2">
+            <li><a href="login.html" class="text-slate text-decoration-none">Halaman Login</a></li>
+            <li><a href="register.html" class="text-slate text-decoration-none">Registrasi Anggota</a></li>
+            <li><a href="dashboard.html" class="text-slate text-decoration-none">Menu Utama (Dashboard)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright pt-3 text-center">
+        <p class="mb-0 small fw-semibold">@Copyright by 24552011297_AHMAD KURNIA_TIF RP 24E CNS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
